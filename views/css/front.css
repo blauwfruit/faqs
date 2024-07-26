@@ -1,0 +1,102 @@
+/**
+* 2007-2024 PrestaShop
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Academic Free License (AFL 3.0)
+* that is bundled with this package in the file LICENSE.txt.
+* It is also available through the world-wide-web at this URL:
+* http://opensource.org/licenses/afl-3.0.php
+* If you did not receive a copy of the license and are unable to
+* obtain it through the world-wide-web, please send an email
+* to license@prestashop.com so we can send you a copy immediately.
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade PrestaShop to newer
+* versions in the future. If you wish to customize PrestaShop for your
+* needs please refer to http://www.prestashop.com for more information.
+*
+*  @author    PrestaShop SA <contact@prestashop.com>
+*  @copyright 2007-2024 PrestaShop SA
+*  @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+*  International Registered Trademark & Property of PrestaShop SA
+*
+* Don't forget to prefix your containers with your own identifier
+* to avoid any conflicts with others containers.
+*/
+.faq {
+    /*border: 1px solid gray;*/
+    padding: 0px;
+    margin: 0px!important;
+}
+
+.faq-item:first-child {
+    border-bottom: 0px;
+    border-radius: .25em .25em 0 0;
+}
+
+.faq-item:last-child {
+    border-radius: 0 0 .25em .25em;
+    border-bottom: 1px solid #adadad;
+}
+
+.faq-item:last-child.faq-item:first-child {
+    border-radius: .25em !important;
+    border: 1px solid #adadad;
+}
+
+.faq-item {
+    padding: 0em;
+    border: 1px solid #adadad;
+    border-bottom: 1px;
+    cursor: pointer;
+}
+
+.faq-item:hover {
+    box-shadow: 0 0 .25em rgba(0,0,0,.20);
+}
+
+.faq-question {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 1em;
+}
+
+.faq-question:after {
+    font-family: 'FontAwesome';
+    position: relative;
+    margin-right: 0;
+    float: right;
+    font-size: .5em;
+    color: #777;
+}
+
+.faq-question.faq-open:after {
+    content: '\f077';
+}
+
+.faq-question.faq-closed:after {
+    content: '\f078';
+}
+
+.faq-answer {
+    display: none;
+    padding: 1em 0 0 0;
+    border-top: none;
+    padding: 1em;
+    padding-top: 0;
+}
+
+.faq-answer > p {
+    margin: unset;
+    padding: unset;
+}
+
+.faq-feedback {
+    padding-top: 1em;
+}
+
+.faq-feedback > span {
+    padding-right: .5em;
+}

@@ -1,0 +1,33 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{faqs}prestashop>faqs_455e72f474cb39139832fd00326dff6f'] = 'FAQS: Veelgestelde vragen met gestructureerde gegevens';
+$_MODULE['<{faqs}prestashop>faqs_88cd3688a7ffd408e07973c3ce983131'] = 'Voeg veelgestelde vragen toe aan pagina\'s zoals product, categorie of CMS. De veelgestelde vragen bevatten gestructureerde gegevens.';
+$_MODULE['<{faqs}prestashop>faqs_6e11466414d98d8698aaae166d81fad9'] = 'Weet je zeker dat je deze module wilt verwijderen? Alle veelgestelde vragen worden verwijderd. ';
+$_MODULE['<{faqs}prestashop>adminfaqcontroller_b718adec73e04ce3ec720dd11a06a308'] = 'ID';
+$_MODULE['<{faqs}prestashop>adminfaqcontroller_a97ea56b0e00b2379736ae60869ff66a'] = 'Vraag';
+$_MODULE['<{faqs}prestashop>adminfaqcontroller_3751695c17afed4055a7a5ad5d46f6f5'] = 'Antwoord';
+$_MODULE['<{faqs}prestashop>adminfaqcontroller_97e7c9a7d06eac006a28bf05467fcc8b'] = 'Link';
+$_MODULE['<{faqs}prestashop>adminfaqcontroller_9f82518d468b9fee614fcc92f76bb163'] = 'Shop';
+$_MODULE['<{faqs}prestashop>adminfaqcontroller_30722aa4ee66bd5b06a4abe892c9e963'] = 'Pagina ID';
+$_MODULE['<{faqs}prestashop>adminfaqcontroller_3c7679577cd1d0be2b98faf898cfc56d'] = 'Toegevoegd';
+$_MODULE['<{faqs}prestashop>adminfaqcontroller_d3b206d196cd6be3a2764c1fb90b200f'] = 'Verwijder selectie';
+$_MODULE['<{faqs}prestashop>adminfaqcontroller_e25f0ecd41211b01c83e5fec41df4fe7'] = 'Geselecteerd items verwijderen?';
+$_MODULE['<{faqs}prestashop>adminfaqcontroller_1fe917b01f9a3f87fa2d7d3b7643fac1'] = 'FAQ';
+$_MODULE['<{faqs}prestashop>adminfaqcontroller_193cfc9be3b995831c6af2fea6650e60'] = 'Pagina';
+$_MODULE['<{faqs}prestashop>adminfaqcontroller_fbfde8992c2b78b799f979a7b120f4eb'] = 'Zoek voor producten, categorieën, CMS-pagina\'s of de Home-pagina';
+$_MODULE['<{faqs}prestashop>adminfaqcontroller_c9cc8cce247e49bae79f15173ce97354'] = 'Opslaan';
+$_MODULE['<{faqs}prestashop>adminfaqcontroller_38805f2752f328c83269d7c72ada507c'] = 'De FAQ is gedupliceerd';
+$_MODULE['<{faqs}prestashop>adminfaqcontroller_afdc460449ba3cb8a5d75e959368dbb5'] = 'Er was een fout bij het dupliceren van de FAQ.';
+$_MODULE['<{faqs}prestashop>adminfaqcontroller_1aab8416fd7239bef82531cfae0e86f5'] = 'FAQ kon niet gevonden worden.';
+$_MODULE['<{faqs}prestashop>feedback_d62968e1245fc470aa53ae9e5646215a'] = 'Bedankt voor de feedback!';
+$_MODULE['<{faqs}prestashop>seeder_5225b7793382028dd147e759f4efbad0'] = 'Hoe product X te gebruiken?';
+$_MODULE['<{faqs}prestashop>seeder_ddf8c0b2e581815b8fe3718e74787bcb'] = 'Om product X te gebruiken, volg deze stappen';
+$_MODULE['<{faqs}prestashop>seeder_703bbcc24ab9308e41420c31e9391cb0'] = 'Wat zijn de eigenschappen van product Y?';
+$_MODULE['<{faqs}prestashop>seeder_5f6c7a3eaf47013b4abd21b84c34e917'] = 'Product Y heeft de volgende eigenschappen: ...';
+$_MODULE['<{faqs}prestashop>seeder_7f8115d0b5a2dbbea2fa7fe55bcc6a10'] = 'Wat is het retourbeleid?';
+$_MODULE['<{faqs}prestashop>seeder_ec47ff675cad5446d3703a71f7a46cc8'] = 'Ons retourbeleid is: ...';
+$_MODULE['<{faqs}prestashop>faq_9d7b5cc67ee52c1647ff3e198f94bc6a'] = 'Veelgestelde vragen over %s';
+$_MODULE['<{faqs}prestashop>faq_984178a8df5b28f92ed6567476db6f32'] = 'Is dit antwoord nuttig?';
+$_MODULE['<{faqs}prestashop>faq_ebce18d2385df06b59d92d7fa917ab71'] = '%d van de %d vond dit nuttig';
