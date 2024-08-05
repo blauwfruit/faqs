@@ -51,7 +51,7 @@ foreach ($questions as $question) {
         'id_shop' => $shopId,
         'id_lang' => $langId,
         'question' => pSQL($question['question']),
-        'answer' => pSQL($question['answer']),
+        'answer' => pSQL('<p>' . $question['answer'] . '</p>'),
     ]);
 }
 
