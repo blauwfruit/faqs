@@ -9,7 +9,13 @@
                             {$item.question}
                         </div>
                         <div class="faq-answer">
-                            <div>{$item.answer}</div>
+                            <div>
+                                {if $smarty.const._PS_VERSION|floatval >= 1.7}
+                                    {$item.answer|escape:'html':'UTF-8'}
+                                {else}
+                                    {$item.answer nofilter}
+                                {/if}
+                            </div>
                             <div class="faq-feedback text-muted">
                                 <div class="row">
                                     <div class="col-lg-6">
