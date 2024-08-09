@@ -26,3 +26,20 @@ This PrestaShop module allows you to manage frequently asked questions (FAQs) an
 2. Click on add new
 3. Ensure that each FAQ entry is filled with relevant question and answer content and pick a page by searching
 4. Hit the save button
+
+## Docker
+
+For development or demo purposes you can run Docker to test this integration.
+
+For the latest PrestaShop:
+```bash
+gh repo clone blauwfruit/faqs .
+docker compose up
+```
+
+For other version
+
+```bash
+gh repo clone blauwfruit/faqs .
+docker compose down --volumes && export TAG=8.1.7-8.1-apache && docker compose up
+```
