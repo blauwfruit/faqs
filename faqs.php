@@ -211,7 +211,7 @@ class faqs extends Module
 
         $this->context->smarty->assign($array);
 
-        return $this->context->smarty->fetch($this->local_path.'views/templates/hook/faq.tpl');
+        return $this->display(__FILE__, 'views/templates/hook/faq.tpl');
     }
 
     public function hookDisplayFooterProduct($params)
